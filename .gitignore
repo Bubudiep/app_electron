@@ -1,0 +1,66 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Output directories
+/dist/
+/build/
+/out/
+.release/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Electron-specific
+*.asar
+*.asar.unpacked
+
+# Sentry/debug files
+sentry-debug.meta
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Cache
+.cache/
+.temp/
+
+# Tests output
+coverage/
+*.log
+
+# Compiled files
+*.tsbuildinfo
+
+# Miscellaneous
+*.iml
+*.lock
+*.log
+*.gz
+
+# Secrets and credentials
+key.pem
+cert.pem
+*.key
+*.cert
